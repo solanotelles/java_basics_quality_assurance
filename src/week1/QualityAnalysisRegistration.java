@@ -46,15 +46,15 @@ public class QualityAnalysisRegistration {
         System.out.println("Product Name: " + productName);
 
         if (moistureValue > maximumMoistValue) {
-            System.out.printf("Moisture Value: %.2f%%. Compliant%n", moistureValue);
+            System.out.printf("Moisture Value: %.2f%%. Non-compliantCompliant%n", moistureValue);
         } else {
-            System.out.printf("Moisture Value: %.2f%%. Non-compliant%n", moistureValue);
+            System.out.printf("Moisture Value: %.2f%%. Compliant%n", moistureValue);
         }
 
         if (density > maximumDensValue) {
-            System.out.println("Density: " + density + " g/L. Compliant");
+            System.out.println("Density: " + density + " g/L. Non-compliant");
         } else {
-            System.out.println("Density: " + density + " g/L. Non-compliant");;
+            System.out.println("Density: " + density + " g/L. Compliant");;
         }
         scan.close();
     }

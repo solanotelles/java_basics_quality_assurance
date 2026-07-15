@@ -6,7 +6,7 @@ public class EvenOddPractice {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("Enter a integer number:");
+        System.out.println("Enter an integer number:");
         int num = scan.nextInt();
 
         if (num % 2 == 0) {

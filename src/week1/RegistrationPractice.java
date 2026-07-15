@@ -17,7 +17,7 @@ public class RegistrationPractice {
         String cityName = scan.nextLine();
 
         System.out.println("Registration Complete!\nHello, " + name + "!");
-        System.out.println("You have " + age + " years old and live in " + cityName + ".");
+        System.out.println("You are " + age + " years old and live in " + cityName + ".");
 
         scan.close();
     }
